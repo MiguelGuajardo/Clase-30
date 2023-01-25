@@ -1,0 +1,10 @@
+<div>
+    <h2>RANDOMS</h2>
+    <p>{{this.PORT}}----{{this.PROCESSID}}</p>
+    <button onclick="location.href='/'">VOLVER AL INICIO</button>
+    <ul>
+        {{#each data}}
+        <li>El numero {{@key}} se repitió {{this}} ves/veces</li>
+        {{/each}}
+    </ul>
+</div>

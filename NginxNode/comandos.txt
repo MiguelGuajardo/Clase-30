@@ -1,0 +1,15 @@
+EJECUCION SERVIDOR EN MODO FORK O CLUSTER
+cd NginxNode
+
+nodemon serverMongoDb.js 
+nodemon serverMongoDb.js --CLUSTER
+
+EJECUCION DE SERVIDOR CON pm2
+
+pm2 start serverMongoDb.js --name="server 1" --watch -- 8081
+pm2 start serverMongoDb.js --name="server 2" --watch -i 1 -- 8082
+pm2 start serverMongoDb.js --name="server 3" --watch -i 1 -- 8083
+pm2 start serverMongoDb.js --name="server 4" --watch -i 1 -- 8084
+pm2 start serverMongoDb.js --name="server 5" --watch -i 1 -- 8085
+
+

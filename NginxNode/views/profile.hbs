@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <div class="redirect__container">
+        <a class="redirect" id="redirect__register" href="/">Home</a>
+    </div>
+    <div class="wrapper">
+        <div class="left">
+            <form action="/profile" method="post" enctype="multipart/form-data">
+                <input type="file" name="avatar" />
+                <button type="submit">Subir foto de perfil</button>
+            </form>
+            <img src={{this.avatarImageId}} alt="user" width="200">
+            <h4 style="text-transform: uppercase;">{{this.firstName}} {{this.lastName}}</h4>
+        </div>
+        <div class="right">
+            <div class="info">
+                <h3>Información</h3>
+                <div class="info_data">
+                    <div class="data">
+                        <h4>Email</h4>
+                        <p>{{this.email}}</p>
+                    </div>
+                    <div class="data">
+                        <h4>Teléfono</h4>
+                        <p>{{this.phone}}</p>
+                    </div>
+                </div>
+                <div class="info_data">
+                    <div class="data">
+                        <h4>Nombre</h4>
+                        <p>{{this.firstName}}</p>
+                    </div>
+                    <div class="data">
+                        <h4>Apellido</h4>
+                        <p>{{this.lastName}}</p>
+                    </div>
+                </div>
+                <div class="info_data">
+                    <div class="data">
+                        <h4>Alias</h4>
+                        <p>{{this.alias}}</p>
+                    </div>
+                    <div class="data">
+                        <h4>Dirección</h4>
+                        <p>{{this.direccion}}</p>
+                    </div>
+                </div>
+                <div class="info_data">
+                    <div class="data">
+                        <h4>Fecha de registro</h4>
+                        <p>{{this.creationDate}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{!-- <div class="cart__auth">
+        <ul>
+            <li><p>Email:{{this.email}}</p></li>
+            <li><p>Alias:{{this.alias}}</p></li>
+            <li><p>Edad:{{this.edad}}</p></li>
+            <li><p>Dirección:{{this.direccion}}</p></li>
+            <li><p>Estas registrado desde:{{this.creationDate}}</p></li>
+            <li><p>Código de sesion:{{this.sesionId}}</p></li>
+        </ul>
+        
+    </div> --}}
+</div>
+</body>
+</html>

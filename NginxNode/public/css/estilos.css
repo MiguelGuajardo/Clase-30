@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html { 
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background: linear-gradient(#8b80f9, #212123);
+}
+.cart__auth{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(139, 128, 249, 0.6);
+    border-radius: 10px;
+}
+.cart__auth h2{
+    margin:  0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.cart__auth .cart__auth-input{
+    position: relative;
+}
+.cart__auth .cart__auth-input input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border:  none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.cart__auth .cart__auth-input label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.cart__auth .cart__auth-input input:focus ~ label,
+.cart__auth .cart__auth-input input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: #8b80f9;
+    font-size: 12px;
+}
+.cart__auth form a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+.cart__auth form a p{
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+.cart__auth a:hover{
+    background: #8b80f9;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #8b80f9, 0 0 25px #8b80f9, 0 0 50px #8b80f9,
+    0 0 100px #8b80f9;
+}
+.cart__auth a span{
+    position: absolute;
+    display: block;
+}
+.cart__auth a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #8b80f9);
+    animation: animaciónBotonLogin1 1s linear infinite;
+}
+@keyframes animaciónBotonLogin1 {
+    0% {
+        left: -100%;
+    }
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+.cart__auth a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #8b80f9);
+    animation: animaciónBotonLogin2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes animaciónBotonLogin2 {
+    0% {
+        top: -100%;
+    }
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.cart__auth a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #8b80f9);
+    animation: animaciónBotonLogin3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes animaciónBotonLogin3 {
+    0% {
+        right: -100%;
+    }
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+.cart__auth a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #8b80f9);
+    animation: animaciónBotonLogin4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes animaciónBotonLogin4 {
+    0% {
+        bottom: -100%;
+    }
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
+
+.redirect__container{
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    width: 150px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(139, 128, 249, 0.6);
+    border-radius: 10px;
+}
+.redirect{
+    position: relative;
+    display: inline-block;
+    padding: 5px 14px;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 4px;
+    letter-spacing: 2px;
+}
+.redirect__login{
+    padding: 5px 33px;
+}
+.redirect:hover{
+    background: #8b80f9;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #8b80f9, 0 0 25px #8b80f9, 0 0 50px #8b80f9,
+    0 0 100px #8b80f9;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    display: flex;
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08)
+}
+.wrapper .left{
+    width: 35%;
+    background: linear-gradient(to right,#8a81f6d2 ,#8b80f9);
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+.wrapper .left img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.wrapper .left h4{
+    margin-bottom: 10px;
+}
+.wrapper .left p{
+    font-size: 12px;
+}
+.wrapper .right{
+    width: 65%;
+    background: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px 25px;
+}
+.wrapper .right .info h3{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom:  1px solid #e0e0e0;
+    color: #353c4e;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.wrapper .right .info_data{
+    display: flex;
+    justify-content: space-between
+}
+.wrapper .right .info_data .data{
+    width: 45%;
+}
+.wrapper .right .info_data .data h4{
+    color: #353c4e;
+    margin-bottom: 5px;
+}
+.wrapper .right .info_data .data p{
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #919aa3;
+}
