@@ -2,7 +2,11 @@ const passport = require("passport")
 const Product = require("../models/Product")
 const sharp = require("sharp")
 const fs = require("fs")
-const INFO = require("../utils/info")
+const info = require("../utils/info")
+/* const logger = require("../utils/logger") */
+const Logger = require("../utils/logger")
+const logger = new Logger()
+
 const { fork } = require("child_process")
 
 const login = (req,res,next)=>{
@@ -10,18 +14,27 @@ const login = (req,res,next)=>{
 }
 const loginPassport = passport.authenticate("local-login" ,{
     successRedirect:"/",
-    failureRedirect:"/login",
+    failureRedirect:"/login-error",
     passReqToCallback:true
 })
+const login_error = (req,res,next)=>{
+    logger.info("Login error"),
+    res.render('login-error')
+}
+const register_error = (req,res,next)=>{
+    logger.info("Register error"),
+    res.render("register-error")
+}
 const register = (req,res,next)=>{
     res.render("register")
 }
 const registerPassport = passport.authenticate("local-register",{
     successRedirect:"/",
-    failureRedirect:"/register",
+    failureRedirect:"/register-error",
     passReqToCallback:true
 })
 const logOut = (req, res, next) => {
+    logger.info("LogOut success"),
     res.redirect('/login');
     req.session.destroy()
   }
@@ -39,6 +52,7 @@ const productPost = async(req,res,next)=>{
     newProduct.price = price
     newProduct.thumbnail = thumbnail
     await newProduct.save()
+    logger.info("Product added successfully"),
     res.redirect("/")
 }
 const profile = (req,res)=>{
@@ -58,14 +72,11 @@ const profileThumbnail = async (req,res,next)=>{
     const resizeAvatar = proccesedAvatar
     const resizeAvatarBuffer = await resizeAvatar.toBuffer()
     fs.writeFileSync(`public/uploads/${_id}.png`,resizeAvatarBuffer)
+    logger.info("Profile picture added successfully")
     const avatarImageId = `uploads/${_id}.png`
 
     res.render("profile",{email,firstName,lastName,alias,edad,direccion,creationDate,phone,avatarImageId})
     
-}
-const info = (req,res)=>{
-    const data = INFO
-    res.render("info", {data})
 }
 const randomNumbers = (req,res)=>{
     const cant = req.query.cant || 10000
@@ -80,8 +91,10 @@ const randomNumbers = (req,res)=>{
 
 module.exports = {
     login,
+    login_error,
     loginPassport,
     register,
+    register_error,
     registerPassport,
     logOut,
     authenticateHome,

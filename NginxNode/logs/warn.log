@@ -1,0 +1,145 @@
+{"timestamp":"30/01/2023 13:52:06","level":"warn","message":"Ruta GET /asd no implementada","data":null}
+{"timestamp":"30/01/2023 13:55:32","level":"error","message":"No User Found","data":null}
+{"timestamp":"30/01/2023 13:57:08","level":"error","message":"No User Found","data":null}
+{"timestamp":"30/01/2023 13:57:23","level":"error","message":"No User Found","data":null}
+{"timestamp":"30/01/2023 13:57:49","level":"error","message":"Incorrect password","data":null}
+{"timestamp":"30/01/2023 13:57:49","level":"error","message":"Incorrect password","data":null}
+{"timestamp":"30/01/2023 15:01:25","level":"error","message":"Incorrect password","data":null}
+{"timestamp":"30/01/2023 15:01:25","level":"error","message":"Incorrect password","data":null}
+{"timestamp":"30/01/2023 15:11:40","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"30/01/2023 15:11:58","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"30/01/2023 15:12:01","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"30/01/2023 15:12:31","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"30/01/2023 15:12:34","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"30/01/2023 15:13:35","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"30/01/2023 15:13:43","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"30/01/2023 15:15:43","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"30/01/2023 15:16:08","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"30/01/2023 15:20:10","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"30/01/2023 15:20:57","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"30/01/2023 15:21:14","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"30/01/2023 16:11:55","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 14784","data":null}
+{"timestamp":"30/01/2023 16:11:55","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 10260","data":null}
+{"timestamp":"30/01/2023 16:11:55","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 14820","data":null}
+{"timestamp":"30/01/2023 16:11:55","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 16160","data":null}
+{"timestamp":"30/01/2023 16:11:55","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 3588","data":null}
+{"timestamp":"30/01/2023 16:11:56","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 9716","data":null}
+{"timestamp":"30/01/2023 16:11:56","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 12244","data":null}
+{"timestamp":"30/01/2023 16:11:56","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 4028","data":null}
+{"timestamp":"30/01/2023 16:12:50","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 1604","data":null}
+{"timestamp":"30/01/2023 16:12:50","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 6272","data":null}
+{"timestamp":"30/01/2023 16:12:50","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 17340","data":null}
+{"timestamp":"30/01/2023 16:12:50","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 14044","data":null}
+{"timestamp":"30/01/2023 16:12:50","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 14136","data":null}
+{"timestamp":"30/01/2023 16:12:50","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 16960","data":null}
+{"timestamp":"30/01/2023 16:12:50","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 7024","data":null}
+{"timestamp":"30/01/2023 16:12:50","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 9776","data":null}
+{"timestamp":"30/01/2023 16:14:42","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 15708","data":null}
+{"timestamp":"30/01/2023 16:14:42","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 15928","data":null}
+{"timestamp":"30/01/2023 16:14:42","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 14128","data":null}
+{"timestamp":"30/01/2023 16:14:42","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 14752","data":null}
+{"timestamp":"30/01/2023 16:14:42","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 6776","data":null}
+{"timestamp":"30/01/2023 16:14:42","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 4484","data":null}
+{"timestamp":"30/01/2023 16:14:42","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 14676","data":null}
+{"timestamp":"30/01/2023 16:14:42","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 3716","data":null}
+{"timestamp":"30/01/2023 16:15:27","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 13320","data":null}
+{"timestamp":"30/01/2023 16:15:27","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 4620","data":null}
+{"timestamp":"30/01/2023 16:15:27","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 8092","data":null}
+{"timestamp":"30/01/2023 16:15:27","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 640","data":null}
+{"timestamp":"30/01/2023 16:15:27","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 3176","data":null}
+{"timestamp":"30/01/2023 16:15:27","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 3092","data":null}
+{"timestamp":"30/01/2023 16:15:27","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 2212","data":null}
+{"timestamp":"30/01/2023 16:15:27","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 9840","data":null}
+{"timestamp":"30/01/2023 16:15:56","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 6996","data":null}
+{"timestamp":"30/01/2023 16:15:56","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 14044","data":null}
+{"timestamp":"30/01/2023 16:15:56","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 1828","data":null}
+{"timestamp":"30/01/2023 16:15:56","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 4628","data":null}
+{"timestamp":"30/01/2023 16:15:56","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 1104","data":null}
+{"timestamp":"30/01/2023 16:15:56","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 16160","data":null}
+{"timestamp":"30/01/2023 16:15:56","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 15880","data":null}
+{"timestamp":"30/01/2023 16:15:56","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 3864","data":null}
+{"timestamp":"30/01/2023 16:15:56","level":"warn","message":"Ruta GET /loca no implementada","data":null}
+{"timestamp":"30/01/2023 16:20:20","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 7012","data":null}
+{"timestamp":"30/01/2023 16:20:20","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 5740","data":null}
+{"timestamp":"30/01/2023 16:20:20","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 13212","data":null}
+{"timestamp":"30/01/2023 16:20:20","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 14844","data":null}
+{"timestamp":"30/01/2023 16:20:20","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 9768","data":null}
+{"timestamp":"30/01/2023 16:20:20","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 7640","data":null}
+{"timestamp":"30/01/2023 16:20:20","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 8076","data":null}
+{"timestamp":"30/01/2023 16:20:20","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 14400","data":null}
+{"timestamp":"30/01/2023 16:21:58","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 8996","data":null}
+{"timestamp":"30/01/2023 16:21:58","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 1588","data":null}
+{"timestamp":"30/01/2023 16:21:58","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 11728","data":null}
+{"timestamp":"30/01/2023 16:21:58","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 10176","data":null}
+{"timestamp":"30/01/2023 16:21:58","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 904","data":null}
+{"timestamp":"30/01/2023 16:21:58","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 11076","data":null}
+{"timestamp":"30/01/2023 16:21:58","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 11260","data":null}
+{"timestamp":"30/01/2023 16:21:58","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 15840","data":null}
+{"timestamp":"30/01/2023 16:23:05","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 12116","data":null}
+{"timestamp":"30/01/2023 16:23:05","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 516","data":null}
+{"timestamp":"30/01/2023 16:23:05","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 17216","data":null}
+{"timestamp":"30/01/2023 16:23:05","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 10956","data":null}
+{"timestamp":"30/01/2023 16:23:05","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 12092","data":null}
+{"timestamp":"30/01/2023 16:23:05","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 6956","data":null}
+{"timestamp":"30/01/2023 16:23:05","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 7244","data":null}
+{"timestamp":"30/01/2023 16:23:05","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 15780","data":null}
+{"timestamp":"30/01/2023 16:25:39","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 3384","data":null}
+{"timestamp":"30/01/2023 16:25:39","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 7944","data":null}
+{"timestamp":"30/01/2023 16:25:39","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 14740","data":null}
+{"timestamp":"30/01/2023 16:25:39","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 5128","data":null}
+{"timestamp":"30/01/2023 16:25:39","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 2164","data":null}
+{"timestamp":"30/01/2023 16:25:39","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 9712","data":null}
+{"timestamp":"30/01/2023 16:25:39","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 6596","data":null}
+{"timestamp":"30/01/2023 16:25:39","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 7040","data":null}
+{"timestamp":"30/01/2023 16:25:55","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 5320","data":null}
+{"timestamp":"30/01/2023 16:25:55","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 10580","data":null}
+{"timestamp":"30/01/2023 16:25:55","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 16936","data":null}
+{"timestamp":"30/01/2023 16:25:55","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 9092","data":null}
+{"timestamp":"30/01/2023 16:25:55","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 7244","data":null}
+{"timestamp":"30/01/2023 16:25:55","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 2364","data":null}
+{"timestamp":"30/01/2023 16:25:55","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 96","data":null}
+{"timestamp":"30/01/2023 16:25:55","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 15748","data":null}
+{"timestamp":"30/01/2023 16:27:14","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 12960","data":null}
+{"timestamp":"30/01/2023 16:27:14","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 1652","data":null}
+{"timestamp":"30/01/2023 16:27:14","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 13256","data":null}
+{"timestamp":"30/01/2023 16:27:14","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 8588","data":null}
+{"timestamp":"30/01/2023 16:27:14","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 796","data":null}
+{"timestamp":"30/01/2023 16:27:14","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 11372","data":null}
+{"timestamp":"30/01/2023 16:27:14","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 12784","data":null}
+{"timestamp":"30/01/2023 16:27:14","level":"error","message":"Error en servidor Error: bind EADDRINUSE null:8080- PID MASTER 12128","data":null}
+{"timestamp":"31/01/2023 13:43:18","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:43:20","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"31/01/2023 13:43:21","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:44:34","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"31/01/2023 13:44:34","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:46:24","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"31/01/2023 13:46:24","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:46:28","level":"warn","message":"Ruta GET /infozip no implementada","data":null}
+{"timestamp":"31/01/2023 13:46:28","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:47:38","level":"error","message":"Error en servidor Error: listen EACCES: permission denied FORK- PID MASTER 8748","data":null}
+{"timestamp":"31/01/2023 13:48:20","level":"error","message":"Error en servidor Error: listen EACCES: permission denied FORK- PID MASTER 14420","data":null}
+{"timestamp":"31/01/2023 13:49:11","level":"error","message":"Error en servidor Error: listen EACCES: permission denied FORK- PID MASTER 15632","data":null}
+{"timestamp":"31/01/2023 13:49:20","level":"error","message":"Error en servidor Error: listen EACCES: permission denied CLUSTER{- PID MASTER 10848","data":null}
+{"timestamp":"31/01/2023 13:49:24","level":"error","message":"Error en servidor Error: listen EACCES: permission denied CLUSTER- PID MASTER 16056","data":null}
+{"timestamp":"31/01/2023 13:50:13","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:50:14","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"31/01/2023 13:50:15","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:50:54","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"31/01/2023 13:50:54","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:50:56","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"31/01/2023 13:50:56","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:51:01","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"31/01/2023 13:51:01","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:51:01","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"31/01/2023 13:51:01","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:52:21","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"31/01/2023 13:52:21","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:53:06","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"31/01/2023 13:53:06","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:53:06","level":"warn","message":"Ruta GET /info no implementada","data":null}
+{"timestamp":"31/01/2023 13:53:07","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 13:55:04","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 15:40:00","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 15:58:04","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 15:58:14","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"31/01/2023 16:00:00","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}

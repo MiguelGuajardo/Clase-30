@@ -4,13 +4,19 @@ const multer  = require('multer')
 const configMemoryStorage = multer.memoryStorage()
 const upload = multer({ storage: configMemoryStorage})
 
+
 const auth = require("../controllers/authControllers")
+const logger = require("../utils/logger")
 
 router.get("/login",auth.login)
 
-router.post("/login", auth.loginPassport)
+router.post("/login",auth.loginPassport)
+
+router.get("/login-error",auth.login_error)
 
 router.get("/register",auth.register)
+
+router.get("/register-error", auth.register_error)
 
 router.post("/register", auth.registerPassport)
 
@@ -23,10 +29,6 @@ router.post("/", auth.productPost)
 router.get("/profile", isAuthenticated , auth.profile)
 
 router.post("/profile", upload.single('avatar'), auth.profileThumbnail)
-
-router.get("/info", auth.info)
-
-router.get("/api/randoms", auth.randomNumbers)
 
 function isAuthenticated (req,res,next){
     if(req.isAuthenticated()){

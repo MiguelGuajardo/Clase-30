@@ -1,0 +1,193 @@
+Statistical profiling result from artillery-v8.log, (25634 ticks, 2 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+  25270   98.6%          C:\Windows\SYSTEM32\ntdll.dll
+    338    1.3%          C:\Program Files\nodejs\node.exe
+      4    0.0%          C:\Windows\System32\KERNELBASE.dll
+      2    0.0%          C:\Windows\System32\KERNEL32.DLL
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+      1    0.0%    5.0%  LazyCompile: *onwrite C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\node_modules\readable-stream\lib\_stream_writable.js:444:17
+      1    0.0%    5.0%  LazyCompile: *normalizeString node:path:66:25
+      1    0.0%    5.0%  LazyCompile: *next C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:177:16
+      1    0.0%    5.0%  LazyCompile: *_addListener node:events:541:22
+      1    0.0%    5.0%  LazyCompile: *__generator C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-handlebars\dist\express-handlebars.js:27:58
+      1    0.0%    5.0%  Function: ^write node:buffer:598:12
+      1    0.0%    5.0%  Function: ^step C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-handlebars\dist\express-handlebars.js:31:18
+      1    0.0%    5.0%  Function: ^processTimers node:internal/timers:487:25
+      1    0.0%    5.0%  Function: ^peek node:internal/priority_queue:45:7
+      1    0.0%    5.0%  Function: ^measureRoundTripTime C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\mongodb\lib\sdam\monitor.js:288:30
+      1    0.0%    5.0%  Function: ^join node:path:421:7
+      1    0.0%    5.0%  Function: ^doWrite node:internal/streams/writable:400:17
+      1    0.0%    5.0%  Function: ^authenticate C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\passport\lib\middleware\authenticate.js:94:31
+      1    0.0%    5.0%  Function: ^_unrefTimer node:net:441:52
+      1    0.0%    5.0%  Function: ^Readable.push C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\node_modules\readable-stream\lib\_stream_readable.js:222:36
+      1    0.0%    5.0%  Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1    0.0%    5.0%  Function: ^<anonymous> node:internal/fs/streams:436:47
+      1    0.0%    5.0%  Function: ^<anonymous> node:fs:205:10
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+     18    0.1%   90.0%  JavaScript
+      0    0.0%    0.0%  C++
+     14    0.1%   70.0%  GC
+  25614   99.9%          Shared libraries
+      2    0.0%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+  25270   98.6%  C:\Windows\SYSTEM32\ntdll.dll
+
+    338    1.3%  C:\Program Files\nodejs\node.exe
+    146   43.2%    C:\Program Files\nodejs\node.exe
+     29   19.9%      Function: ^handleWriteReq node:internal/stream_base_commons:45:24
+     16   55.2%        Function: ^writeGeneric node:internal/stream_base_commons:147:22
+     16  100.0%          Function: ^Socket._writeGeneric node:net:848:42
+     16  100.0%            Function: ^Socket._write node:net:885:35
+     13   44.8%        LazyCompile: *writeOrBuffer node:internal/streams/writable:367:23
+     11   84.6%          LazyCompile: *_write node:internal/streams/writable:285:16
+     11  100.0%            Function: ^Writable.write node:internal/streams/writable:335:36
+      2   15.4%          Function: ^_write node:internal/streams/writable:285:16
+      2  100.0%            Function: ^Writable.write node:internal/streams/writable:335:36
+     26   17.8%      Function: ^compileFunction node:vm:316:25
+     25   96.2%        Function: ^wrapSafe node:internal/modules/cjs/loader:1040:18
+     25  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+     25  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1    3.8%        LazyCompile: ~wrapSafe node:internal/modules/cjs/loader:1040:18
+      1  100.0%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1080:37
+      1  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      6    4.1%      Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      4   66.7%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:349:29
+      1   25.0%          LazyCompile: ~lazyLoadStreams node:fs:2893:25
+      1  100.0%            LazyCompile: ~get ReadStream node:fs:3036:17
+      1   25.0%          Function: ~<anonymous> node:internal/modules/esm/load:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1   25.0%          Function: ~<anonymous> node:dns:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1   25.0%          Function: ~<anonymous> node:crypto:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      2   33.3%        Function: ^compileForPublicLoader node:internal/bootstrap/loaders:263:25
+      2  100.0%          Function: ^loadNativeModule node:internal/modules/cjs/helpers:44:26
+      2  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:771:24
+      5    3.4%      Function: ^stat node:internal/modules/cjs/loader:151:14
+      4   80.0%        Function: ^tryFile node:internal/modules/cjs/loader:395:17
+      4  100.0%          Function: ^tryExtensions node:internal/modules/cjs/loader:411:23
+      4  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:505:28
+      1   20.0%        Function: ^Module._findPath node:internal/modules/cjs/loader:505:28
+      1  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:865:35
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:771:24
+      5    3.4%      Function: ^readSync node:fs:699:18
+      5  100.0%        Function: ^tryReadSync node:fs:438:21
+      5  100.0%          Function: ^readFileSync node:fs:459:22
+      5  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      4    2.7%      C:\Program Files\nodejs\node.exe
+      1   25.0%        LazyCompile: ~selectServer C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\mongodb\lib\sdam\topology.js:253:17
+      1  100.0%          LazyCompile: ~connect C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\mongodb\lib\sdam\topology.js:154:12
+      1  100.0%            LazyCompile: ~<anonymous> C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\mongodb\lib\mongo_client.js:136:49
+      1   25.0%        LazyCompile: *step C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-handlebars\dist\express-handlebars.js:31:18
+      1  100.0%          LazyCompile: *fulfilled C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-handlebars\dist\express-handlebars.js:21:27
+      1  100.0%            C:\Program Files\nodejs\node.exe
+      1   25.0%        Function: ~<anonymous> C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\node_modules\debug\src\node.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1   25.0%        Function: ^header C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\response.js:777:29
+      1  100.0%          Function: ^contentType C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\response.js:619:32
+      1  100.0%            Function: ^send C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\response.js:111:25
+      3    2.1%      LazyCompile: *nextTick node:internal/process/task_queues:104:18
+      2   66.7%        Function: ^onwrite node:internal/streams/writable:427:17
+      1   50.0%          LazyCompile: *writeOrBuffer node:internal/streams/writable:367:23
+      1  100.0%            LazyCompile: *_write node:internal/streams/writable:285:16
+      1   50.0%          Function: ^afterWriteDispatched node:internal/stream_base_commons:155:30
+      1  100.0%            Function: ^writeGeneric node:internal/stream_base_commons:147:22
+      1   33.3%        LazyCompile: *Readable.read node:internal/streams/readable:394:35
+      1  100.0%          Function: ^resume_ node:internal/streams/readable:984:17
+      1  100.0%            LazyCompile: *processTicksAndRejections node:internal/process/task_queues:68:35
+      3    2.1%      LazyCompile: *next C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:177:16
+      2   66.7%        Function: ^<anonymous> C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:640:19
+      2  100.0%          LazyCompile: *next C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:177:16
+      2  100.0%            Function: ^handle C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:136:31
+      1   33.3%        Function: ^cookieParser C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\cookie-parser\index.js:44:32
+      1  100.0%          LazyCompile: *trim_prefix C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:293:23
+      1  100.0%            LazyCompile: *next C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:177:16
+      3    2.1%      Function: ^<anonymous> C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\serverMongoDb.js:64:18
+      2   66.7%        Function: ^handle C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\layer.js:86:49
+      2  100.0%          Function: ^next C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\route.js:116:16
+      2  100.0%            Function: ^dispatch C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\route.js:98:45
+      1   33.3%        LazyCompile: *handle C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%          Function: ^next C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\route.js:116:16
+      1  100.0%            Function: ^dispatch C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\route.js:98:45
+      2    1.4%      Function: ^writevGeneric node:internal/stream_base_commons:122:23
+      2  100.0%        Function: ^Socket._writeGeneric node:net:848:42
+      2  100.0%          Function: ^Socket._writev node:net:880:36
+      2  100.0%            Function: ^doWrite node:internal/streams/writable:400:17
+      2    1.4%      Function: ^write node:buffer:598:12
+      2  100.0%        Function: ^fromStringFast node:buffer:418:24
+      2  100.0%          Function: ^fromString node:buffer:437:20
+      2  100.0%            Function: ^from node:buffer:301:28
+      2    1.4%      Function: ^session C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-session\index.js:179:26
+      1   50.0%        LazyCompile: *trim_prefix C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:293:23
+      1  100.0%          LazyCompile: *next C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:177:16
+      1  100.0%            Function: ^urlencodedParser C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\body-parser\lib\types\urlencoded.js:79:36
+      1   50.0%        Function: ^handle C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%          Function: ^trim_prefix C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:293:23
+      1  100.0%            LazyCompile: *next C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:177:16
+      2    1.4%      Function: ^read node:internal/modules/package_json_reader:16:14
+      2  100.0%        Function: ^readPackage node:internal/modules/cjs/loader:301:21
+      2  100.0%          Function: ^readPackageScope node:internal/modules/cjs/loader:332:26
+      2  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      2    1.4%      Function: ^jsonParser C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\body-parser\lib\types\json.js:98:30
+      1   50.0%        LazyCompile: *trim_prefix C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:293:23
+      1  100.0%          LazyCompile: *next C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:177:16
+      1  100.0%            Function: ^expressInit C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\middleware\init.js:29:30
+      1   50.0%        Function: ^handle C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%          Function: ^trim_prefix C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:293:23
+      1  100.0%            LazyCompile: *next C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:177:16
+      2    1.4%      Function: ^initialize C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\passport\lib\middleware\initialize.js:51:29
+      2  100.0%        Function: ^handle C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\layer.js:86:49
+      2  100.0%          Function: ^trim_prefix C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:293:23
+      1   50.0%            LazyCompile: *next C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:177:16
+      1   50.0%            Function: ^<anonymous> C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:280:64
+      2    1.4%      Function: ^func C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\node_modules\moment\moment.js:467:29
+      2  100.0%        Function: ^formatTokenFunctions.<computed> C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\node_modules\moment\moment.js:475:56
+      1   50.0%          LazyCompile: *<anonymous> C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\node_modules\moment\moment.js:509:25
+      1  100.0%            Function: ^formatMoment C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\node_modules\moment\moment.js:522:26
+      1   50.0%          Function: ^<anonymous> C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\node_modules\moment\moment.js:509:25
+      1  100.0%            Function: ^formatMoment C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\node_modules\moment\moment.js:522:26
+      2    1.4%      Function: ^cookieParser C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\cookie-parser\index.js:44:32
+      2  100.0%        LazyCompile: *trim_prefix C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:293:23
+      2  100.0%          LazyCompile: *next C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express\lib\router\index.js:177:16
+      2  100.0%            Function: ^strategy.pass C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\passport\lib\middleware\authenticate.js:345:31
+      2    1.4%      Function: ^Session C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-session\session\session.js:24:17
+      2  100.0%        Function: ^store.generate C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-session\index.js:158:28
+      2  100.0%          Function: ^generate C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-session\index.js:363:22
+      2  100.0%            Function: ^session C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-session\index.js:179:26
+     10    3.0%    Function: ^processTimers node:internal/timers:487:25
+      4    1.2%    LazyCompile: *step C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-handlebars\dist\express-handlebars.js:31:18
+      2   50.0%      LazyCompile: *<anonymous> C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-handlebars\dist\express-handlebars.js:20:46
+      2  100.0%        C:\Program Files\nodejs\node.exe
+      2  100.0%          Function: ^__awaiter C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-handlebars\dist\express-handlebars.js:18:54
+      1   50.0%            Function: ^ExpressHandlebars.getTemplates C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-handlebars\dist\express-handlebars.js:196:57
+      1   50.0%            Function: ^<anonymous> C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-handlebars\dist\express-handlebars.js:105:84
+      2   50.0%      Function: ^<anonymous> C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-handlebars\dist\express-handlebars.js:30:40
+      1   50.0%        Function: ^fulfilled C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-handlebars\dist\express-handlebars.js:21:27
+      1  100.0%          C:\Program Files\nodejs\node.exe
+      1  100.0%            LazyCompile: *processTicksAndRejections node:internal/process/task_queues:68:35
+      1   50.0%        Function: ^<anonymous> C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-handlebars\dist\express-handlebars.js:20:46
+      1  100.0%          C:\Program Files\nodejs\node.exe
+      1  100.0%            Function: ^__awaiter C:\Users\User\Desktop\Backend compu brian\Backend2\Clase 30\NginxNode\node_modules\express-handlebars\dist\express-handlebars.js:18:54
+      4    1.2%    Function: ^remove node:internal/linkedlist:16:16
+      4  100.0%      Function: ^listOnTimeout node:internal/timers:507:25
+      4  100.0%        Function: ^processTimers node:internal/timers:487:25
+

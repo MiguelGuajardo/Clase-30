@@ -6,13 +6,15 @@
   "scripts": {
     "fork": "node serverMongoDb.js 8080 FORK",
     "cluster": "node serverMongoDb.js 8080 CLUSTER",
-    "mongo": "nodemon serverMongoDb.js"
+    "mongo": "nodemon serverMongoDb.js",
+    "test": "node benchmark.js ",
+    "start": "0x serverMongoDb.js",
+    "setup": "curl -X GET 'http://localhost:8080/info'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "autocannon": "^7.10.0",
     "bcrypt-nodejs": "^0.0.3",
     "connect-mongo": "^4.6.0",
     "cookie-parser": "^1.4.6",
